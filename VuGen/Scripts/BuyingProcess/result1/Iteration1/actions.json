@@ -1,0 +1,126 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Web Tours",
+                "infFile": "t1.inf",
+                "time": 1663922407164
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: header.html",
+                "infFile": "t2.inf",
+                "time": 1663922407228
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1663922407462
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: nav_1.pl",
+                "infFile": "t4.inf",
+                "time": 1663922407839
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: home.html",
+                "infFile": "t5.inf",
+                "time": 1663922407916
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: login_44.pl",
+                "infFile": "t6.inf",
+                "time": 1663922408117
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: nav_2.pl",
+                "infFile": "t7.inf",
+                "time": 1663922408276
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: login_1.pl",
+                "infFile": "t8.inf",
+                "time": 1663922408405
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: nav_3.pl",
+                "infFile": "t9.inf",
+                "time": 1663922408764
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: reservations.pl",
+                "infFile": "t10.inf",
+                "time": 1663922408928
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: reservation_2.pl",
+                "infFile": "t11.inf",
+                "time": 1663922409239
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: reservation_3.pl",
+                "infFile": "t12.inf",
+                "time": 1663922409436
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: reservation_4.pl",
+                "infFile": "t13.inf",
+                "time": 1663922409628
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: goingToTheHomePage",
+                "infFile": "t15.inf",
+                "time": 1663922409931
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: nav_5.pl",
+                "infFile": "t16.inf",
+                "time": 1663922410055
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: login.pl",
+                "infFile": "t17.inf",
+                "time": 1663922410176
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Транзакция 2: Загрузка домашней страницы",
+                "rawStartTime": 1663922406795,
+                "rawEndTime": 1663922407952,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2142941951751709
+            },
+            {
+                "transactionName": "Транзакция 1: Время авторизации",
+                "rawStartTime": 1663922406764,
+                "rawEndTime": 1663922408609,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2504606246948242
+            },
+            {
+                "transactionName": "Транзакция 3: Процесс покупки билета с возвращением на домашнюю страницу",
+                "rawStartTime": 1663922406780,
+                "rawEndTime": 1663922410294,
+                "thinkTime": 0.0,
+                "wastedTime": 0.36207079887390139
+            }
+        ]
+    }
+]

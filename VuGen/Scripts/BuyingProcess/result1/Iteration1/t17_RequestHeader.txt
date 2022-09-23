@@ -1,0 +1,9 @@
+GET /cgi-bin/login.pl?intro=true HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1663922407; MTUserInfo=firstName&Vladislav&address2&Kazan%2C%20Republic%20of%20Tatarstan&username&vsgolovin96&hash&22&lastName&Golovin%0A&address1&Komartova%20st.8&creditCard&&expDate&%0A
+
