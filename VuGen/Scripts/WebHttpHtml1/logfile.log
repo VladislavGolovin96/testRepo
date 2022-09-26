@@ -1,7 +1,0 @@
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:4: error: syntax error; found `;' expecting `)'
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:5: error: illegal expression
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:5: error: syntax error; found `s' expecting `)'
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:5: error: syntax error; found `s' expecting `;'
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:5: error: undeclared identifier `s'
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\webhttphtml1\\pre_cci.c: Action.c:5: warning: expression with no effect elided
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\webhttphtml1\\pre_cci.c: c:\\users\\smst-n-72.desktop-c7ijnlv\\documents\\vugen\\scripts\\webhttphtml1\\\\combined_WebHttpHtml1.c:6: error: 5 errors, not writing pre_cci.ci

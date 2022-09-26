@@ -1,9 +1,0 @@
-HTTP/1.1 200 OK
-Date: Fri, 23 Sep 2022 08:40:07 GMT
-Server: Apache/2.2.21 (Win32)
-Expires: Thu, 22 Sep 2022 08:40:07 GMT
-Keep-Alive: timeout=5, max=96
-Connection: Keep-Alive
-Transfer-Encoding: chunked
-Content-Type: text/html; charset=ISO-8859-1
-

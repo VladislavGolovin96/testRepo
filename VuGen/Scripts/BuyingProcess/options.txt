@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\SmSt-N-72.DESKTOP-C7IJNLV\Documents\VuGen\Scripts\BuyingProcess
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\buyingprocess\\logfile.log
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\buyingprocess\\combined_BuyingProcess.c
-c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\buyingprocess\\pre_cci.c
