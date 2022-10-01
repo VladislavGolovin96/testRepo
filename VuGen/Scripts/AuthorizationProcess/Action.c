@@ -6,7 +6,8 @@ Action()
 	//Начало транзакции 
 
 	lr_start_transaction("Транзакция 1: Время авторизации");
-
+	
+	lr_start_sub_transaction("Сабтранзакция 01: Время прогрузки домашней страницы", "Транзакция 1: Время авторизации");
 	saveResponse();
 	
 	web_custom_request("Web Tours",
@@ -122,7 +123,8 @@ Action()
 		"RecContentType=image/gif",
 		"Snapshot=t8.inf",
 		LAST);
-
+	lr_end_sub_transaction("Сабтранзакция 01: Время прогрузки домашней страницы", LR_AUTO);
+	
 	lr_think_time (10);	
 	
 	//Сетим куку MTUserInfo
@@ -134,7 +136,9 @@ Action()
 		SEARCH_FILTERS,
 		"Scope=Headers",
 		LAST);
-			
+	saveResponse();
+	
+	lr_start_sub_transaction("Сабтранзакция 02: Отправка данных для регистрации","Транзакция 1: Время авторизации");
 	web_custom_request("login_44.pl",
 		"URL={http}{host}{port}/cgi-bin/login.pl",
 		"Method=POST",
@@ -143,8 +147,12 @@ Action()
 		"Snapshot=t9.inf",
 		"Body=userSession={userSession}&username={login}&password={password}&login.x=81&login.y=6&JSFormSubmit=off",
 		LAST);
+	checkResponse("Отправка данных на регистрацию");
+	
+	lr_end_sub_transaction("Сабтранзакция 02: Отправка данных для регистрации", LR_PASS);
 		
 	lr_output_message(lr_eval_string("Кука 2={MTUserInfo}"));
+	lr_output_message(lr_eval_string("user Session is: {userSession}"));
 	
 	lr_think_time (110);
 	
