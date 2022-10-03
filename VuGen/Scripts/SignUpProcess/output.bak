@@ -1,0 +1,115 @@
+Virtual User Script started at: 03.10.2022 10:13:11
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (янв 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\SmSt-N-72.DESKTOP-C7IJNLV\Documents\VuGen\Scripts\SignUpProcess\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): Notify: Transaction "Транзакция 1: Прогрузка главной страницы" started.
+customFunc.h(5): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+customFunc.h(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_custom_request("Web Tours") started  	[MsgId: MMSG-26355]
+Action.c(9): Detected non-resource "http://localhost:1080/webtours/header.html" in "http://localhost:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(9): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/webtours/index.htm"  	[MsgId: MMSG-26574]
+Action.c(9): Found resource "http://localhost:1080/webtours/images/hp_logo.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "http://localhost:1080/webtours/images/webtours.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(9): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(9): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(9): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(9): Warning -26376: Requested parameter "success" found in 8 different pages/frames. Use "web_reg_save_param" with more restrictive LB/RB/RelFrameId  	[MsgId: MWAR-26376]
+Action.c(9): Warning -26373: Parameter "success" saved from a resource (URL="http://localhost:1080/WebTours/images/mer_login.gif")  	[MsgId: MWAR-26373]
+Action.c(9): web_custom_request("Web Tours") highest severity level was "warning", 10080 body bytes, 2374 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+customFunc.h(22): Статус ответа  успешный
+Action.c(21): web_custom_request("header.html") started  	[MsgId: MMSG-26355]
+Action.c(21): Retrieving data from cache for "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26558]
+Action.c(21): Resource "http://localhost:1080/webtours/images/hp_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(21): Resource "http://localhost:1080/webtours/images/webtours.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(21): web_custom_request("header.html") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action.c(31): web_custom_request("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(31): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(31): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(31): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(31): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(31): web_custom_request("welcome.pl") was successful, 2167 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(39): web_custom_request("hp_logo.png") started  	[MsgId: MMSG-26355]
+Action.c(39): Resource "http://localhost:1080/webtours/images/hp_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(47): web_custom_request("webtours.png") started  	[MsgId: MMSG-26355]
+Action.c(47): Resource "http://localhost:1080/webtours/images/webtours.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(55): web_custom_request("nav.pl") started  	[MsgId: MMSG-26355]
+Action.c(55): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(55): web_custom_request("nav.pl") was successful, 1481 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(63): web_custom_request("home.html") started  	[MsgId: MMSG-26355]
+Action.c(63): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(63): web_custom_request("home.html") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action.c(71): web_custom_request("mer_login.gif") started  	[MsgId: MMSG-26355]
+Action.c(71): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Notify: Transaction "Транзакция 1: Прогрузка главной страницы" ended with a "Pass" status (Duration: 0,6360 Wasted Time: 0,1480).
+Action.c(83): Notify: Transaction "Транзакция 2: Прогрузка формы регистрации" started.
+customFunc.h(5): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+customFunc.h(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(87): web_custom_request("Registration form") started  	[MsgId: MMSG-26355]
+Action.c(87): Found resource "http://localhost:1080/WebTours/profileValidate.js" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(87): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(87): Warning -26376: Requested parameter "success" found in 3 different pages/frames. Use "web_reg_save_param" with more restrictive LB/RB/RelFrameId  	[MsgId: MWAR-26376]
+Action.c(87): Warning -26373: Parameter "success" saved from a resource (URL="http://localhost:1080/WebTours/profileValidate.js")  	[MsgId: MWAR-26373]
+Action.c(87): web_custom_request("Registration form") highest severity level was "warning", 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26387]
+customFunc.h(22): Статус ответа  успешный
+Action.c(97): web_custom_request("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(97): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(105): Notify: Transaction "Транзакция 2: Прогрузка формы регистрации" ended with a "Pass" status (Duration: 0,1418 Wasted Time: 0,0082).
+Action.c(107): Notify: Transaction "Транзакция 3: Отправка заполненных данных на бэк" started.
+customFunc.h(5): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+customFunc.h(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(110): web_custom_request("Отправка данных") started  	[MsgId: MMSG-26355]
+Action.c(110): web_custom_request("Отправка данных") was successful, 2747 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+customFunc.h(22): Статус ответа  успешный
+Action.c(120): web_custom_request("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(120): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(128): Notify: Transaction "Транзакция 3: Отправка заполненных данных на бэк" ended with a "Pass" status (Duration: 0,1383 Wasted Time: 0,0090).
+Action.c(132): Notify: Transaction "Транзакция 4: Редирект на главную страницу" started.
+customFunc.h(5): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+customFunc.h(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(135): web_custom_request("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(135): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(135): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(135): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(135): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(135): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(135): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(135): Warning -26376: Requested parameter "success" found in 7 different pages/frames. Use "web_reg_save_param" with more restrictive LB/RB/RelFrameId  	[MsgId: MWAR-26376]
+Action.c(135): Warning -26373: Parameter "success" saved from a resource (URL="http://localhost:1080/WebTours/images/in_home.gif")  	[MsgId: MWAR-26373]
+Action.c(135): web_custom_request("welcome.pl") highest severity level was "warning", 5890 body bytes, 1892 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26387]
+customFunc.h(22): Статус ответа  успешный
+Action.c(145): web_custom_request("signoff.gif") started  	[MsgId: MMSG-26355]
+Action.c(145): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+customFunc.h(5): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+customFunc.h(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(155): web_custom_request("nav_1.pl") started  	[MsgId: MMSG-26355]
+Action.c(155): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(155): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(155): Resource "http://localhost:1080/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(155): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(155): web_custom_request("nav_1.pl") was successful, 1482 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+customFunc.h(22): Статус ответа  успешный
+customFunc.h(5): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+customFunc.h(5): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(167): web_custom_request("login_1.pl") started  	[MsgId: MMSG-26355]
+Action.c(167): web_custom_request("login_1.pl") was successful, 914 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+customFunc.h(22): Статус ответа  успешный
+Action.c(177): web_custom_request("itinerary.gif") started  	[MsgId: MMSG-26355]
+Action.c(177): Resource "http://localhost:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(185): web_custom_request("in_home.gif") started  	[MsgId: MMSG-26355]
+Action.c(185): Resource "http://localhost:1080/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(193): web_custom_request("flights.gif") started  	[MsgId: MMSG-26355]
+Action.c(193): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(201): Notify: Transaction "Транзакция 4: Редирект на главную страницу" ended with a "Pass" status (Duration: 0,4478 Wasted Time: 0,0263).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,97 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Web Tours",
+                "infFile": "t1.inf",
+                "time": 1664782221803
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: header.html",
+                "infFile": "t2.inf",
+                "time": 1664782221849
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1664782221996
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: nav.pl",
+                "infFile": "t4.inf",
+                "time": 1664782222176
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: home.html",
+                "infFile": "t5.inf",
+                "time": 1664782222205
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: Registration form",
+                "infFile": "t6.inf",
+                "time": 1664782222353
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: Отправка данных",
+                "infFile": "t7.inf",
+                "time": 1664782222514
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: welcome.pl",
+                "infFile": "t8.inf",
+                "time": 1664782222726
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: nav_1.pl",
+                "infFile": "t9.inf",
+                "time": 1664782222841
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: login_1.pl",
+                "infFile": "t10.inf",
+                "time": 1664782222952
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Транзакция 1: Прогрузка главной страницы",
+                "rawStartTime": 1664782221486,
+                "rawEndTime": 1664782222233,
+                "thinkTime": 0.0,
+                "wastedTime": 0.21119427680969239
+            },
+            {
+                "transactionName": "Транзакция 2: Прогрузка формы регистрации",
+                "rawStartTime": 1664782222249,
+                "rawEndTime": 1664782222388,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009066581726074219
+            },
+            {
+                "transactionName": "Транзакция 3: Отправка заполненных данных на бэк",
+                "rawStartTime": 1664782222403,
+                "rawEndTime": 1664782222560,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011274337768554688
+            },
+            {
+                "transactionName": "Транзакция 4: Редирект на главную страницу",
+                "rawStartTime": 1664782222575,
+                "rawEndTime": 1664782223028,
+                "thinkTime": 0.0,
+                "wastedTime": 0.024924039840698243
+            }
+        ]
+    }
+]

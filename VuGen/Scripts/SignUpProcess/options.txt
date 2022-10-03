@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\SmSt-N-72.DESKTOP-C7IJNLV\Documents\VuGen\Scripts\SignUpProcess
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\signupprocess\\logfile.log
+c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\signupprocess\\combined_SignUpProcess.c
+c:\users\smst-n-72.desktop-c7ijnlv\documents\vugen\scripts\signupprocess\\pre_cci.c
